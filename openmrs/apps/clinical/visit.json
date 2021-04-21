@@ -6,7 +6,7 @@
         "printing": {
             "title": "NepalEHR",
             "header": "Visit",
-            "logo": "../images/nhn-logo.png"
+            "logo": "../images/AP_logo.png"
         }
     },
     "discharge_summary": {
@@ -14,7 +14,7 @@
         "printing": {
             "title": "NepalEHR",
             "header": "Discharge Summary",
-            "logo": "../images/nhn-logo.png"
+            "logo": "../images/AP_logo.png"
         },
         "sections": {
             "patientinformation": {
@@ -113,7 +113,7 @@
         "printing": {
             "title": "NepalEHR",
             "header": "OPD Summary",
-            "logo": "../images/nhn-logo.png",
+            "logo": "../images/AP_logo.png",
             "showNameAndImage": true
         },
         "sections": {
@@ -205,7 +205,7 @@
         "printing": {
             "title": "NepalEHR",
             "header": "OPD One Pager",
-            "logo": "../images/nhn-logo.png",
+            "logo": "../images/AP_logo.png",
             "showNameAndImage": true
         },
         "sections": {
