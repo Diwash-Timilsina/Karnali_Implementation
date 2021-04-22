@@ -201,8 +201,23 @@
         },
         "SA-Follow up": {
         "allowFutureDates": true
+<<<<<<< HEAD
  
 	},
+=======
+        
+	},
+        "Dental note-Tooth quadrant": {
+        "multiSelect": true
+        },
+        "Dental note-Tooth number" : {
+        "multiSelect": true
+        },
+        "Dental note-Procedure": {
+        "multiSelect": true      
+        
+        },
+>>>>>>> fd7e2f2cd3d9515a503ae38190f50c6945ec951d
         "Discharge-Inpatient outcome": {
         "required": true
         },
