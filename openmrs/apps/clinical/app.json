@@ -201,10 +201,8 @@
         },
         "SA-Follow up": {
         "allowFutureDates": true
-        
-        
-        
-        },
+ 
+	},
         "Discharge-Inpatient outcome": {
         "required": true
         },
