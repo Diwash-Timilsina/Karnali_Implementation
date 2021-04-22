@@ -202,7 +202,15 @@
         "SA-Follow up": {
         "allowFutureDates": true
         
-        
+	},
+        "Dental note-Tooth quadrant": {
+        "multiSelect": true
+        },
+        "Dental note-Tooth number" : {
+        "multiSelect": true
+        },
+        "Dental note-Procedure": {
+        "multiSelect": true      
         
         },
         "Discharge-Inpatient outcome": {
