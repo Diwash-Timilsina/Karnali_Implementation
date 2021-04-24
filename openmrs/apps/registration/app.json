@@ -30,7 +30,8 @@
                     "title": "Insurance Information", 
                     "attributes": ["NHIS Number",
 				   "NHIS Member Active",
-                                    "NHIS Primary Contact Point" ] 
+                                    "NHIS Primary Contact Point",
+				    "Claim Id" ] 
               
 
 	       },
