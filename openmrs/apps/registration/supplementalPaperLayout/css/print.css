@@ -16,12 +16,13 @@
     font-weight: bold;
 }
 .fontForSticker {
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 10px;
+    font-weight: bold;
     margin-top: 5px;
 }
 .dept {
     text-decoration: underline;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 14px;
 }
