@@ -233,6 +233,7 @@
         },
         "ANC-ANC visit": {
         "required": true
+	"multiSelect" true
         },
         "ANC-Completed 4 ANC visits": {
         "required": true
@@ -244,12 +245,17 @@
         "required": true,
         "multiSelect": true
         },
+	"ANC-Obstetric complication": {
+        "required": true,
+        "multiSelect": true
+        },
         "ANC-HIV counseling": {
         "required": true
         },
         "ANC-HIV testing": {
         "required": true
         },
+			
         "Delivery-Delivery service done by": {
         "required": true
         },
@@ -284,6 +290,12 @@
         "required": true
         },
         "PNC-Vitamin A capsules provided": {
+        "required": true
+        },
+	"PNC-Obstructive complication": {
+        "required": true
+        },
+	"PNC-Postpartum FP chosen": {
         "required": true
         },
         "FRH-Users type": {
