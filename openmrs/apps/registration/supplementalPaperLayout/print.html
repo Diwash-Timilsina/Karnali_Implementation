@@ -6,38 +6,47 @@
         <div class="left">
 
             <div class="row">
-                <span><b>{{patient.primaryIdentifier.identifier}}</b></span>
+                Patient Identifier &nbsp; &nbsp;<span><b>{{patient.primaryIdentifier.identifier}}</b></span>
+            </div>
+            <br>
+
+            <div class="row1">
+                Name &nbsp; &nbsp; <b><span>{{patient.fullNameLocal()}} - </span></b>
+
+                <div ng-switch on="patient.gender" class="row1">
+                    <b><span>{{patient.age.years}}Y/</span></b>
+                    <b><span ng-switch-when="M">
+                    M
+                </span></b>
+                    <b><span ng-switch-when="F">
+                    F
+                </span></b>
+                </div>
             </div>
 
             <div class="row">
-                <span>{{patient.fullNameLocal()}}</span>
-            </div>
-
-            <div ng-switch on="patient.gender" class="row">
-                <span>
-                    ({{patient.age.years}},
-                </span>
-                <span ng-switch-when="M">
-                    Male)
-                </span>
-                <span ng-switch-when="F">
-                    Female)
-                </span>
-            </div>
-
-            <div class="row">
-                <span>{{patient.registrationDate | date:'dd/MM/yyyy hh:mm:ss a'}}</span>
-            </div>
-
-            <div class="row">
-                <span>{{patient.address.cityVillage}}</span>
+                Address &nbsp;<span>{{patient.address.cityVillage}}</span>
                 <span>{{patient.address.address1}}</span>
                 <span>{{patient.address.countyDistrict}}</span>
             </div>
 
-            <div class="row dept">
-                <span>{{obs['Department Sent To'][0].value}}</span>
+
+            <div class="row">
+                Date &nbsp; &nbsp; &nbsp;<span>{{patient.registrationDate | date:'yyyy-dd-MM hh:mm:ss a'}}</span>
             </div>
+            <div class="row dept">
+                Charge:&nbsp; <span>{{visitTypePrice}}</span>
+            </div>
+            <!--  <div class="right">
+                  <span class="label">उमेर /लिंग:</span>
+                  <span>{{patient.age.years || "0"}}</span>
+                  <span ng-show="patient.gender">/ {{patient.gender}}</span>
+              </div>-->
+            <!--.right 
+             width: 50%;
+             float: left;
+             position:relative;  //width makes gap between tow letter how much width it need to be kept
+        -->
         </div>
     </div>
 </div>

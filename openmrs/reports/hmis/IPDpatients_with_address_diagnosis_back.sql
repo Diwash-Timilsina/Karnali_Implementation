@@ -1,6 +1,6 @@
 SELECT
   COALESCE(pn.given_name, pn.family_name) as 'Name',
-  pi.identifier as 'Patient Identifier',
+  pi.identifier as '',
   person.birthdate as 'DOB',
   person.gender as 'Gender',
   pa.city_village as 'Village',
