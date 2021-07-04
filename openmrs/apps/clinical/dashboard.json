@@ -219,11 +219,11 @@
                         "numberOfVisits": "4",
                         "groupBy": "encounters",
                         "obsConcepts": [
-                            "Systolic",
+                            "Systolic Data",
                             "Diastolic",
                             "Temperature",
                             "Heart Rate",
-                            "Respiratory Rate",
+                            "Childhood-Respiratory rate data",
                             "Oxygen Saturation",
                             "Weight"
                         ],
