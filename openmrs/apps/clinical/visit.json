@@ -4,7 +4,7 @@
         "displayByDefault": true,
         "defaultSections": true,
         "printing": {
-            "title": "Aampipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "Visit",
             "logo": "../images/APH_logo.png"       
          }, 
@@ -21,7 +21,7 @@
     "discharge_summary": {
         "translationKey": "DASHBOARD_TAB_DISCHARGE_SUMMARY_KEY",
         "printing": {
-            "title": "Aampippal Hospital",
+            "title": "Mahakali Hospital",
             "header": "Discharge Summary",
             "logo": "../images/APH_logo.png"
         },
@@ -120,7 +120,7 @@
     "opdSummary": {
         "title": "OPD Summary",
         "printing": {
-            "title": "Aampippal Hospital",
+            "title": "Mahakali Hospital",
             "header": "OPD Summary",
             "logo": "../images/APH_logo.png",
             "showNameAndImage": true
@@ -212,7 +212,7 @@
     "testSummary": {
         "title": "OPD One Pager",
         "printing": {
-            "title": "Aampippal Hospital",
+            "title": "Mahakali Hospital",
             "header": "OPD One Pager",
             "logo": "../images/APH_logo.png",
             "showNameAndImage": true
