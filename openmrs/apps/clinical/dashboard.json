@@ -4,7 +4,7 @@
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
         "printing": {
-            "title": "Aamppipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "General Summary",
             "logo": "../images/APH_logo.png"
         },
@@ -493,7 +493,7 @@
     "hiv": {
         "dashboardName": "HIV",
         "printing": {
-            "title": "Aamppipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "HIV Summary",
             "logo": "../images/APH_logo.png"
         },
@@ -541,7 +541,7 @@
     "motherhood": {
         "dashboardName": "Motherhood",
         "printing": {
-            "title": "Aamppipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "Motherhood Summary",
             "logo": "../images/APH_logo.png"
         },
@@ -578,7 +578,7 @@
     "operationsAndProcedures": {
         "dashboardName": "Operations and Procedures",
         "printing": {
-            "title": "Aamppipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "Operations and Procedures Summary",
             "logo": "../images/APH_logo.png"
         },
@@ -615,7 +615,7 @@
     "imam": {
         "dashboardName": "IMAM",
         "printing": {
-            "title": "Aamppipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "IMAM Summary",
             "logo": "../images/APH_logo.png"
         },
@@ -652,7 +652,7 @@
     "communityHealth": {
         "dashboardName": "Community Health",
         "printing": {
-            "title": "Aamppipal Hospital",
+            "title": "Mahakali Hospital",
             "header": "Community Health Summary",
             "logo": "../images/APH_logo.png"
         },
