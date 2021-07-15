@@ -226,6 +226,7 @@
         },
         "ANC-ANC visit": {
         "required": true
+	"multiSelect": true
 	},
         "ANC-Albendazole given": {
         "required": true
