@@ -226,6 +226,15 @@
         },
         "ANC-ANC visit": {
         "required": true
+	},
+        "ANC-Albendazole given": {
+        "required": true
+	},
+        "ANC-Albendazole given": {
+        "required": true
+	},
+        "ANC-Obstetric complication": {
+        "required": true
         },
         "ANC-Completed 4 ANC visits": {
         "required": true
@@ -261,8 +270,17 @@
         },
         "Delivery-Fetal presentation": {
         "required": true
+	},
+        "Delivery-Completed 4 ANC visits per protocol": {
+        "required": true
         },
         "Delivery-Blood transfusion quantity": {
+        "required": true
+	},
+        "Delivery-Gravida": {
+        "required": true
+	},
+        "Delivery-Gestation period": {
         "required": true
         },
         "Delivery-Complication present": {
@@ -290,7 +308,7 @@
         },
         "SA-Surgical procedure": {
         "required": true
-        },
+	},
         "SA-Medical procedure": {
         "required": true
         },
