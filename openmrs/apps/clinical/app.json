@@ -340,8 +340,11 @@
         "required": true
         },
         "DRTB FU-Monthly baseline test performed": {
-        "required": true
-        },
+        "required": true     
+	},
+        "OPD-Disease condition": {
+        "multiSelect": true
+	 },
         "Burn-Site of burn": {
         "required": true,
         "multiSelect": true
@@ -406,8 +409,8 @@
         "Death note-Pronounced death date and time": {
         "required": true
         },
-        "Procedure-Procedure": {
-        "required": true
+        "Procedure-Procedure location": {
+        "multiSelect": true
         },
         "Procedure-Surgeons": {
         "required": true
@@ -421,8 +424,26 @@
         "Procedure-Other staff": {
         "required": true
         },
+        "Procedure-Procedure": {
+        "required": true,
+        "multiSelect": true 
+        },
+        "Procedure-Orthopedic procedure": {
+        "required": true,
+        "multiSelect": true 
+        
+             
+        
+        },
         "Operative note-Procedure": {
-        "required": true
+        "required": true,
+        "multiSelect": true 
+        },
+        "Operative note-Upper limb(UL)": {
+        "multiSelect": true 
+        },
+        "Operative note-Lower limb(LL)": {
+        "multiSelect": true 
         },
         "Operative note-Surgeons": {
         "required": true
